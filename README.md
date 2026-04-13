@@ -3,7 +3,7 @@
 ## Problema
 Centralizar e tratar dados de vendas para análise.
 
-## 🔄 Processo ETL
+## Processo ETL
 - Extract: leitura de arquivos CSV
 - Transform: limpeza e padronização
 - Load: inserção no MySQL
@@ -13,7 +13,7 @@ Centralizar e tratar dados de vendas para análise.
 - MySQL
 - SQL
 
-## Resultados
+## Resulta
 - Dados organizados e prontos para análise
 - Consultas SQL para insights de negócio
 
