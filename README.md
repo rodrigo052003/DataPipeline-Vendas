@@ -1,22 +1,26 @@
-# Pipeline ETL de Vendas com Python e MySQL
+# Data Pipeline de Vendas 📊
 
-## Problema
-Centralizar e tratar dados de vendas para análise.
+Projeto de engenharia de dados que realiza um processo ETL (Extract, Transform, Load) em dados de vendas.
 
-## Processo ETL
-- Extract: leitura de arquivos CSV
-- Transform: limpeza e padronização
-- Load: inserção no MySQL
+## Funcionalidades
+- Leitura de dados de vendas (CSV)
+- Limpeza e tratamento dos dados
+- Geração de dados organizados para análise
 
 ## Tecnologias
-- Python (Pandas)
+- Python
+- Pandas
+- ETL
 - MySQL
-- SQL
 
-## Resulta
-- Dados organizados e prontos para análise
-- Consultas SQL para insights de negócio
+## Fluxo do Pipeline
+1. Extração: leitura do arquivo de vendas
+2. Transformação:
+   - remoção de dados inválidos
+   - padronização
+3. Carga: geração de novo arquivo tratado
 
-## Insights
-- Identificação de categorias mais lucrativas
-- Regiões com maior volume de vendas
+## Como executar
+```bash
+pip install pandas
+python etl.py
